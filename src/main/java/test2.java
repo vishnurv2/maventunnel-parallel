@@ -83,8 +83,6 @@ public class test2 {
         capabilities.setCapability("tunnelName",portn);
 
         driver = new RemoteWebDriver(new URL("https://username:accesskey@hub.lambdatest.com/wd/hub"),capabilities);
-//        driver = new RemoteWebDriver(new URL("https://mohammadasadkhan1:CsbtfqVzuuBShxEgq1K3@hub-cloud.browserstack.com/wd/hub"),options);
-//        driver = new RemoteWebDriver(new URL("https://asad360logica:4b140c78-2f70-4e2b-a733-e556e02ecde9@ondemand.us-west-1.saucelabs.com:443/wd/hub"), options);
 //        WebDriver driver = new ChromeDriver(option);
     }
 
